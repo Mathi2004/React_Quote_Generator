@@ -1,0 +1,96 @@
+.box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .box p {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .text {
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .text p {
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .fa-quote-left.fa2 {
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  
+  .fa-quote-right.fa1 {
+    font-size: 60px;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+  }
+  
+  input[type="number"] {
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-bottom:300px;
+    cursor: pointer;
+    border-color: black;
+  }
+  
+  footer {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+  }
+  .two{
+    /* background-color: coral; */
+    background-image: url("https://cutewallpaper.org/21/chill-background-hd/Chill-Background-Drawing-1920x1080-47-Good-Vibes-Wallpaper-.jpg");
+    height: 100vh;
+    padding-top: 2%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+  }
